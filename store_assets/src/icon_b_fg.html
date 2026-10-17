@@ -1,0 +1,59 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;padding:0;background:transparent}svg{display:block}</style>
+</head><body>
+<!-- Icon B: phone tapping a glowing tag, dark neon -->
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="0.4" cy="0.65" r="0.85">
+      <stop offset="0" stop-color="#1D2B6B"/>
+      <stop offset="1" stop-color="#070B22"/>
+    </radialGradient>
+    <linearGradient id="tag" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#7C4DFF"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00E5FF"/>
+      <stop offset="1" stop-color="#8E5CFF"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14215A"/>
+      <stop offset="1" stop-color="#0A1238"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="-10" dy="24" stdDeviation="26" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(512 512) scale(0.66) translate(-512 -512)">
+
+  <!-- glow + ripples around tag -->
+  <circle cx="340" cy="700" r="190" fill="url(#tag)" opacity="0.55" filter="url(#blur)"/>
+  <g fill="none" stroke="url(#ring)" stroke-width="20">
+    <circle cx="340" cy="700" r="215" opacity="0.6"/>
+    <circle cx="340" cy="700" r="295" opacity="0.3"/>
+  </g>
+
+  <!-- tag -->
+  <circle cx="340" cy="700" r="140" fill="url(#tag)"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="12" opacity="0.55">
+    <circle cx="340" cy="700" r="104"/>
+    <circle cx="340" cy="700" r="70"/>
+  </g>
+  <circle cx="340" cy="700" r="30" fill="#FFFFFF"/>
+
+  <!-- phone -->
+  <g transform="translate(-25 25) rotate(22 650 400)" filter="url(#shadow)">
+    <rect x="500" y="130" width="300" height="540" rx="64" fill="#F2F5FF"/>
+    <rect x="520" y="150" width="260" height="500" rx="46" fill="url(#screen)"/>
+    <rect x="610" y="170" width="80" height="20" rx="10" fill="#F2F5FF"/>
+    <circle cx="650" cy="410" r="92" fill="url(#tag)"/>
+    <path d="M606 412 L638 444 L698 380" fill="none" stroke="#FFFFFF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</g>
+</svg>
+</body></html>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>html,body{margin:0;padding:0;background:#000}svg{display:block}</style>
+</head><body>
+<!-- Icon A: NFC tag card + signal waves, brand blue -->
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#42A5F5"/>
+      <stop offset="0.55" stop-color="#1E6FE0"/>
+      <stop offset="1" stop-color="#0B3A9E"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.3" cy="0.2" r="0.7">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#E6EEFB"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="28" stdDeviation="30" flood-color="#06215C" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <rect width="1024" height="1024" fill="url(#glow)"/>
+
+  <g transform="translate(-38 30)">
+  <!-- signal waves -->
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-width="46">
+    <path d="M548 321 A140 140 0 0 1 699 448" opacity="1"/>
+    <path d="M539 221 A240 240 0 0 1 799 439" opacity="0.8"/>
+    <path d="M530 121 A340 340 0 0 1 899 430" opacity="0.55"/>
+  </g>
+
+  <!-- tag card -->
+  <g transform="rotate(-8 400 640)" filter="url(#shadow)">
+    <rect x="200" y="440" width="400" height="400" rx="76" fill="url(#card)"/>
+    <g fill="none" stroke="#1E6FE0" stroke-width="18">
+      <rect x="252" y="492" width="296" height="296" rx="44"/>
+      <rect x="292" y="532" width="216" height="216" rx="30" opacity="0.75"/>
+      <rect x="332" y="572" width="136" height="136" rx="18" opacity="0.5"/>
+    </g>
+    <rect x="372" y="612" width="56" height="56" rx="10" fill="#1E6FE0"/>
+  </g>
+  </g>
+</svg>
+</body></html>
