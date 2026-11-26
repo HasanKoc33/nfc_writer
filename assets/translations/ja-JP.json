@@ -1,0 +1,158 @@
+{
+  "app": {
+    "title": "NFC Writer"
+  },
+  "home": {
+    "title": "NFC Writer",
+    "content": "ホームページコンテンツ",
+    "tabs": {
+      "scan": "スキャン",
+      "write": "書き込み"
+    }
+  },
+  "drawer": {
+    "home": "ホーム",
+    "history": "履歴",
+    "remove_ads": "広告を削除",
+    "rate_app": "アプリを評価",
+    "support": "サポート",
+    "language": {
+      "title": "言語",
+      "english": "英語",
+      "turkish": "トルコ語",
+      "russian": "ロシア語",
+      "korean": "韓国語",
+      "arabic": "アラビア語",
+      "chinese": "中国語",
+      "french": "フランス語",
+      "german": "ドイツ語",
+      "greek": "ギリシャ語",
+      "italian": "イタリア語",
+      "japanese": "日本語",
+      "spanish": "スペイン語"
+    },
+    "theme": {
+      "title": "テーマ",
+      "light": "ライト",
+      "dark": "ダーク",
+      "system": "システム"
+    }
+  },
+  "nfc": {
+    "not_available": "NFCは利用できません",
+    "scan": {
+      "start": "スキャン開始",
+      "serial_number": "シリアル番号",
+      "memory_status": "メモリ状態",
+      "empty_space": "空き容量",
+      "used_space": "使用容量",
+      "total_size": "合計サイズ",
+      "byte": "バイト",
+      "repeat": "再スキャン",
+      "rescan": "再スキャン"
+    },
+    "write": {
+      "add_data": "NFCタグに書き込むデータを追加",
+      "add_data_description": "NFCタグに書き込むデータを追加してください",
+      "data_size": "書き込むデータサイズ",
+      "start_writing": "書き込み開始",
+      "add_record": "データを追加",
+      "records_list": "保存済みデータ",
+      "records_count": "{count}件",
+      "writing_in_progress": "書き込み中...",
+      "url": "URL",
+      "text": "テキスト",
+      "contact": "連絡先",
+      "contact_name": "名前",
+      "contact_phone": "電話",
+      "contact_email": "メール",
+      "contact_address": "住所",
+      "contact_company": "会社",
+      "contact_website": "ウェブサイト",
+      "add_contact": "連絡先を追加",
+      "wifi": "Wi-Fi",
+      "mime": "MIME",
+      "custom_data": "カスタムデータ",
+      "add_url": "URLを追加",
+      "url_prefix": "URLプレフィックス",
+      "no_password": "パスワードなし",
+      "hidden_ssid": "非表示SSID",
+      "ios_alert_write": "タグを近づけてください。2秒ほどかかる場合があります。",
+      "write_success": "書き込み成功",
+      "write_error": "書き込みエラー",
+      "tag_not_writable": "このタグは書き込みできません",
+      "enter_text_hint": "テキストを入力",
+      "enter_hex_hint": "16進数データを入力 (01AB23...)",
+      "hex_warning": "スペースなし。有効な16進数値を使用 (0-9, A-F)。",
+      "invalid_hex": "無効な16進数形式！",
+      "data_format": "データ形式",
+      "cancel": "キャンセル"
+    }
+  },
+  "pro_version": {
+    "title": "プレミアムにアップグレード",
+    "upgrade_button": "プレミアムにアップグレード",
+    "feature": {
+      "remove_ads": {
+        "title": "広告を削除",
+        "description": "広告なしでアプリを楽しむ"
+      }
+    }
+  },
+  "email": {
+    "subject": "NFC Writer サポート"
+  },
+  "history": {
+    "title": "履歴",
+    "read_tab": "読み取り履歴",
+    "write_tab": "書き込み履歴",
+    "empty": "まだ履歴がありません",
+    "use": "使用",
+    "delete": "削除",
+    "share": "共有",
+    "copy": "コピー",
+    "clear_all": "すべてクリア",
+    "clear_read": "読み取り履歴をクリア",
+    "clear_write": "書き込み履歴をクリア",
+    "confirm_clear": "履歴をクリア",
+    "confirm_clear_message": "すべての履歴を削除してもよろしいですか？",
+    "confirm_delete": "削除の確認",
+    "confirm_delete_message": "この項目を削除してもよろしいですか？",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "item_deleted": "項目が削除されました",
+    "cleared": "履歴がクリアされました",
+    "copied": "コピーしました",
+    "search": "検索...",
+    "type": "タイプ",
+    "content": "内容",
+    "date": "日付",
+    "just_now": "たった今",
+    "minutes_ago": "{0}分前",
+    "hours_ago": "{0}時間前",
+    "days_ago": "{0}日前",
+    "filter": {
+      "all": "すべて",
+      "url": "URL",
+      "text": "テキスト",
+      "wifi": "Wi-Fi",
+      "phone": "電話",
+      "email": "メール",
+      "location": "位置情報",
+      "sms": "SMS",
+      "vcard": "連絡先",
+      "other": "その他"
+    }
+  },
+  "common": {
+    "ok": "OK",
+    "cancel": "キャンセル",
+    "yes": "はい",
+    "no": "いいえ",
+    "success": "成功",
+    "error": "エラー",
+    "warning": "警告",
+    "info": "情報",
+    "processing": "処理中..."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "862274881693",
+    "project_id": "nfc-tool-48ac8",
+    "storage_bucket": "nfc-tool-48ac8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862274881693:android:c38844986b85e1e98e2c74",
+        "android_client_info": {
+          "package_name": "com.firesoft.nfc_writer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAijsc70tvuhwsHKxEyQtrf4RFKFp579Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

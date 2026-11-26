@@ -1,0 +1,11 @@
+1.2.0 sürümündeki yenilikler:
+• Açık ve koyu temalı, baştan sona yeni modern tasarım
+• Etiket kopyalama: bir etiketi okut, aynı veriyi yeni etikete yaz
+• Dinamik Link (Pro): etiketin yönlendirdiği adresi istediğin zaman değiştir; tıklama, cihaz ve tarayıcı verilerini gör
+• Etikete yazılan kişi kartları artık her telefonda doğru açılıyor
+• Geçmiş artık kaydediliyor; istediğin kaydı tek dokunuşla yeniden kullan
+• Tam link yapıştırınca https:// artık iki kez eklenmiyor
+• Satın Alımı Geri Yükle butonu ve satın alma düzeltmeleri
+• Kararlılık iyileştirmeleri
+
+Sorun mu var? info@firesoftyazilim.com

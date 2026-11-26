@@ -1,0 +1,158 @@
+{
+  "app": {
+    "title": "NFC Writer"
+  },
+  "home": {
+    "title": "NFC Writer",
+    "content": "Contenuto Pagina Iniziale",
+    "tabs": {
+      "scan": "Scansiona",
+      "write": "Scrivi"
+    }
+  },
+  "drawer": {
+    "home": "Home",
+    "history": "Cronologia",
+    "remove_ads": "Rimuovi Pubblicità",
+    "rate_app": "Valuta App",
+    "support": "Supporto",
+    "language": {
+      "title": "Lingua",
+      "english": "Inglese",
+      "turkish": "Turco",
+      "russian": "Russo",
+      "korean": "Coreano",
+      "arabic": "Arabo",
+      "chinese": "Cinese",
+      "french": "Francese",
+      "german": "Tedesco",
+      "greek": "Greco",
+      "italian": "Italiano",
+      "japanese": "Giapponese",
+      "spanish": "Spagnolo"
+    },
+    "theme": {
+      "title": "Tema",
+      "light": "Chiaro",
+      "dark": "Scuro",
+      "system": "Sistema"
+    }
+  },
+  "nfc": {
+    "not_available": "NFC non disponibile",
+    "scan": {
+      "start": "Inizia Scansione",
+      "serial_number": "Numero Seriale",
+      "memory_status": "Stato Memoria",
+      "empty_space": "Spazio Libero",
+      "used_space": "Spazio Utilizzato",
+      "total_size": "Dimensione Totale",
+      "byte": "byte",
+      "repeat": "Ripeti Scansione",
+      "repeat_scan": "Ripeti Scansione"
+    },
+    "write": {
+      "add_data": "Aggiungi Dati da Scrivere sul Tag NFC",
+      "add_data_description": "Aggiungi dati da scrivere sul tuo tag NFC",
+      "data_size": "Dimensione Dati da Scrivere",
+      "start_writing": "Inizia Scrittura",
+      "add_record": "Aggiungi Dati",
+      "records_list": "Dati Salvati",
+      "records_count": "{count} record",
+      "writing_in_progress": "Scrittura in corso...",
+      "url": "URL",
+      "text": "Testo",
+      "contact": "Contatto",
+      "contact_name": "Nome",
+      "contact_phone": "Telefono",
+      "contact_email": "E-mail",
+      "contact_address": "Indirizzo",
+      "contact_company": "Azienda",
+      "contact_website": "Sito web",
+      "add_contact": "Aggiungi contatto",
+      "wifi": "Wi-Fi",
+      "mime": "MIME",
+      "custom_data": "Dati Personalizzati",
+      "add_url": "Aggiungi URL",
+      "url_prefix": "Prefisso URL",
+      "no_password": "Nessuna password",
+      "hidden_ssid": "SSID nascosto",
+      "ios_alert_write": "Avvicina il tag. Potrebbe richiedere fino a 2 secondi.",
+      "write_success": "Scrittura riuscita",
+      "write_error": "Errore di scrittura",
+      "tag_not_writable": "Questo tag non è scrivibile",
+      "enter_text_hint": "Inserisci testo",
+      "enter_hex_hint": "Inserisci dati hex (01AB23...)",
+      "hex_warning": "Nessuno spazio. Usa valori hex validi (0-9, A-F).",
+      "invalid_hex": "Formato hex non valido!",
+      "data_format": "Formato dati",
+      "cancel": "Annulla"
+    }
+  },
+  "pro_version": {
+    "title": "Passa a Premium",
+    "upgrade_button": "Passa a Premium",
+    "feature": {
+      "remove_ads": {
+        "title": "Rimuovi Pubblicità",
+        "description": "Goditi un'esperienza senza pubblicità"
+      }
+    }
+  },
+  "email": {
+    "subject": "Supporto NFC Writer"
+  },
+  "history": {
+    "title": "Cronologia",
+    "read_tab": "Cronologia Lettura",
+    "write_tab": "Cronologia Scrittura",
+    "empty": "Nessuna cronologia ancora",
+    "use": "Usa",
+    "delete": "Elimina",
+    "share": "Condividi",
+    "copy": "Copia",
+    "clear_all": "Cancella Tutto",
+    "clear_read": "Cancella Cronologia Lettura",
+    "clear_write": "Cancella Cronologia Scrittura",
+    "confirm_clear": "Cancella Cronologia",
+    "confirm_clear_message": "Sei sicuro di voler eliminare tutta la cronologia?",
+    "confirm_delete": "Conferma Eliminazione",
+    "confirm_delete_message": "Sei sicuro di voler eliminare questo elemento?",
+    "cancel": "Annulla",
+    "close": "Chiudi",
+    "item_deleted": "Elemento eliminato",
+    "cleared": "Cronologia cancellata",
+    "copied": "Copiato",
+    "search": "Cerca...",
+    "type": "Tipo",
+    "content": "Contenuto",
+    "date": "Data",
+    "just_now": "Proprio ora",
+    "minutes_ago": "{0} minuti fa",
+    "hours_ago": "{0} ore fa",
+    "days_ago": "{0} giorni fa",
+    "filter": {
+      "all": "Tutto",
+      "url": "URL",
+      "text": "Testo",
+      "wifi": "Wi-Fi",
+      "phone": "Telefono",
+      "email": "Email",
+      "location": "Posizione",
+      "sms": "SMS",
+      "vcard": "Contatto",
+      "other": "Altro"
+    }
+  },
+  "common": {
+    "ok": "OK",
+    "cancel": "Annulla",
+    "yes": "Sì",
+    "no": "No",
+    "success": "Successo",
+    "error": "Errore",
+    "warning": "Avviso",
+    "info": "Info",
+    "processing": "Elaborazione..."
+  }
+}

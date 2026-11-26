@@ -1,0 +1,82 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0}
+  body{width:3840px;height:2560px;overflow:hidden;position:relative;
+    background:radial-gradient(1500px 1300px at 2900px 1500px,#2A3F9E 0%,rgba(42,63,158,0) 70%),
+               linear-gradient(135deg,#0A1033 0%,#070B22 100%);
+    font-family:-apple-system,"SF Pro Display","Helvetica Neue",sans-serif;color:#fff}
+  .grad{background:linear-gradient(90deg,#00E5FF,#8E5CFF);-webkit-background-clip:text;color:transparent}
+
+  .copy{position:absolute;left:300px;top:560px;width:1900px}
+  h1{margin:0;font-size:240px;font-weight:800;letter-spacing:-6px;line-height:1.02}
+  ul{list-style:none;margin:150px 0 0;padding:0}
+  li{display:flex;align-items:center;gap:56px;font-size:112px;font-weight:600;margin-bottom:84px;letter-spacing:-1px}
+  li .dot{flex:none;width:130px;height:130px;border-radius:50%;
+    background:linear-gradient(135deg,#00E5FF,#7C4DFF);display:flex;align-items:center;justify-content:center}
+
+  .glow{position:absolute;left:2420px;top:1880px;width:1000px;height:1000px;border-radius:50%;
+    background:radial-gradient(circle,#4FA8FF 0%,rgba(124,77,255,.35) 40%,rgba(0,0,0,0) 70%)}
+  .ring{position:absolute;border-radius:50%;border:22px solid rgba(0,229,255,.35)}
+
+  .phone{position:absolute;left:2420px;top:220px;width:1000px;height:2040px;border-radius:150px;
+    background:#F2F5FF;box-shadow:0 80px 160px rgba(0,0,0,.55);padding:36px;box-sizing:border-box}
+  .screen{width:100%;height:100%;border-radius:118px;background:linear-gradient(#16245F,#0A1238);
+    position:relative;overflow:hidden;padding:200px 70px 0;box-sizing:border-box}
+  .notch{position:absolute;left:50%;top:44px;transform:translateX(-50%);width:260px;height:76px;border-radius:40px;background:#000}
+  .title{font-size:104px;font-weight:800;letter-spacing:-2px;margin:0 0 20px}
+  .sub{font-size:52px;color:#AFC0F5;margin-bottom:70px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:44px}
+  .tile{background:rgba(255,255,255,.07);border:3px solid rgba(255,255,255,.12);border-radius:64px;
+    height:370px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:34px;
+    font-size:64px;font-weight:700}
+  .tile.on{background:linear-gradient(135deg,rgba(0,229,255,.28),rgba(124,77,255,.28));border-color:#5FD6FF}
+  .ic{width:150px;height:150px;border-radius:44px;display:flex;align-items:center;justify-content:center;
+    background:linear-gradient(135deg,#00E5FF,#7C4DFF)}
+  .hint{margin-top:60px;display:flex;align-items:center;gap:44px;padding:50px 56px;border-radius:64px;
+    background:rgba(255,255,255,.06);font-size:56px;font-weight:600;color:#D6E0FF}
+  .btn{position:absolute;left:70px;right:70px;bottom:120px;height:200px;border-radius:100px;
+    background:linear-gradient(90deg,#00C8FF,#7C4DFF);display:flex;align-items:center;justify-content:center;
+    font-size:76px;font-weight:800}
+</style>
+</head><body>
+
+<div class="glow"></div>
+<div class="ring" style="left:2570px;top:2030px;width:700px;height:700px"></div>
+<div class="ring" style="left:2390px;top:1850px;width:1060px;height:1060px;border-color:rgba(124,77,255,.2)"></div>
+
+<div class="copy">
+  <h1>Write <span class="grad">NFC tags</span><br>in seconds</h1>
+  <ul>
+    <li><span class="dot"><svg width="70" height="70" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Read any NFC tag</li>
+    <li><span class="dot"><svg width="70" height="70" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>URL, Wi‑Fi, contact &amp; text</li>
+    <li><span class="dot"><svg width="70" height="70" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>Copy &amp; save your tags</li>
+  </ul>
+</div>
+
+<div class="phone"><div class="screen">
+  <div class="notch"></div>
+  <div class="title">Write Tag</div>
+  <div class="sub">Choose what to write</div>
+  <div class="grid">
+    <div class="tile on"><div class="ic">
+      <svg width="90" height="90" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"><path d="M10 14a4 4 0 0 0 5.66 0l3-3a4 4 0 0 0-5.66-5.66l-1 1"/><path d="M14 10a4 4 0 0 0-5.66 0l-3 3a4 4 0 0 0 5.66 5.66l1-1"/></svg>
+    </div>URL</div>
+    <div class="tile"><div class="ic">
+      <svg width="90" height="90" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"><path d="M2.5 9a14 14 0 0 1 19 0"/><path d="M6 12.5a9 9 0 0 1 12 0"/><path d="M9.3 16a4 4 0 0 1 5.4 0"/><circle cx="12" cy="19.3" r="1.1" fill="#fff" stroke="none"/></svg>
+    </div>Wi‑Fi</div>
+    <div class="tile"><div class="ic">
+      <svg width="90" height="90" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="8" r="4"/><path d="M4 20.5a8 8 0 0 1 16 0"/></svg>
+    </div>Contact</div>
+    <div class="tile"><div class="ic">
+      <svg width="90" height="90" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round"><path d="M5 6h14M12 6v13M8.5 19h7"/></svg>
+    </div>Text</div>
+  </div>
+  <div class="hint">
+    <svg width="120" height="120" viewBox="0 0 24 24" fill="none" stroke="#5FD6FF" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="17" r="1.6" fill="#5FD6FF" stroke="none"/><path d="M8.5 13.5a5 5 0 0 1 7 0"/><path d="M5.6 10.6a9 9 0 0 1 12.8 0"/><path d="M2.8 7.8a13 13 0 0 1 18.4 0"/></svg>
+    <div>Hold tag near<br>your iPhone</div>
+  </div>
+  <div class="btn">Write to Tag</div>
+</div></div>
+
+</body></html>

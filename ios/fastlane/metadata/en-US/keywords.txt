@@ -1,0 +1,1 @@
+clone,vcard,business card,wifi,ndef,scanner,sticker,dynamic link,qr,contactless,ntag,rfid,url

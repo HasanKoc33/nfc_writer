@@ -1,0 +1,158 @@
+{
+  "app": {
+    "title": "NFC Writer"
+  },
+  "home": {
+    "title": "NFC Writer",
+    "content": "首頁內容",
+    "tabs": {
+      "scan": "掃描",
+      "write": "寫入"
+    }
+  },
+  "drawer": {
+    "home": "首頁",
+    "history": "歷史記錄",
+    "remove_ads": "移除廣告",
+    "rate_app": "評分應用",
+    "support": "支援",
+    "language": {
+      "title": "語言",
+      "english": "英語",
+      "turkish": "土耳其語",
+      "russian": "俄語",
+      "korean": "韓語",
+      "arabic": "阿拉伯語",
+      "chinese": "中文",
+      "french": "法語",
+      "german": "德語",
+      "greek": "希臘語",
+      "italian": "義大利語",
+      "japanese": "日語",
+      "spanish": "西班牙語"
+    },
+    "theme": {
+      "title": "主題",
+      "light": "淺色",
+      "dark": "深色",
+      "system": "系統"
+    }
+  },
+  "nfc": {
+    "not_available": "NFC 不可用",
+    "scan": {
+      "start": "開始掃描",
+      "serial_number": "序號",
+      "memory_status": "記憶體狀態",
+      "empty_space": "可用空間",
+      "used_space": "已用空間",
+      "total_size": "總大小",
+      "byte": "位元組",
+      "repeat": "重新掃描",
+      "rescan": "重新掃描"
+    },
+    "write": {
+      "add_data": "新增要寫入 NFC 標籤的資料",
+      "add_data_description": "新增要寫入 NFC 標籤的資料",
+      "data_size": "要寫入的資料大小",
+      "start_writing": "開始寫入",
+      "add_record": "新增資料",
+      "records_list": "已儲存的資料",
+      "records_count": "{count} 筆",
+      "writing_in_progress": "寫入中...",
+      "url": "網址",
+      "text": "文字",
+      "contact": "聯絡人",
+      "contact_name": "姓名",
+      "contact_phone": "電話",
+      "contact_email": "電子郵件",
+      "contact_address": "地址",
+      "contact_company": "公司",
+      "contact_website": "網站",
+      "add_contact": "新增聯絡人",
+      "wifi": "Wi-Fi",
+      "mime": "MIME",
+      "custom_data": "自訂資料",
+      "add_url": "新增URL",
+      "url_prefix": "URL前綴",
+      "no_password": "無密碼",
+      "hidden_ssid": "隱藏SSID",
+      "ios_alert_write": "靠近標籤，最多需要2秒鐘。",
+      "write_success": "寫入成功",
+      "write_error": "寫入錯誤",
+      "tag_not_writable": "此標籤無法寫入",
+      "enter_text_hint": "輸入文字",
+      "enter_hex_hint": "輸入十六進位資料 (01AB23...)",
+      "hex_warning": "不允許空格。使用有效的十六進位值 (0-9, A-F)。",
+      "invalid_hex": "無效的十六進位格式！",
+      "data_format": "資料格式",
+      "cancel": "取消"
+    }
+  },
+  "pro_version": {
+    "title": "升級至專業版",
+    "upgrade_button": "升級至專業版",
+    "feature": {
+      "remove_ads": {
+        "title": "移除廣告",
+        "description": "享受無廣告的體驗"
+      }
+    }
+  },
+  "email": {
+    "subject": "NFC Writer 支援"
+  },
+  "history": {
+    "title": "歷史記錄",
+    "read_tab": "讀取記錄",
+    "write_tab": "寫入記錄",
+    "empty": "尚無歷史記錄",
+    "use": "使用",
+    "delete": "刪除",
+    "share": "分享",
+    "copy": "複製",
+    "clear_all": "清除全部",
+    "clear_read": "清除讀取記錄",
+    "clear_write": "清除寫入記錄",
+    "confirm_clear": "清除記錄",
+    "confirm_clear_message": "確定要刪除所有歷史記錄嗎？",
+    "confirm_delete": "確認刪除",
+    "confirm_delete_message": "確定要刪除此項目嗎？",
+    "cancel": "取消",
+    "close": "關閉",
+    "item_deleted": "項目已刪除",
+    "cleared": "記錄已清除",
+    "copied": "已複製",
+    "search": "搜尋...",
+    "type": "類型",
+    "content": "內容",
+    "date": "日期",
+    "just_now": "剛剛",
+    "minutes_ago": "{0}分鐘前",
+    "hours_ago": "{0}小時前",
+    "days_ago": "{0}天前",
+    "filter": {
+      "all": "全部",
+      "url": "網址",
+      "text": "文字",
+      "wifi": "Wi-Fi",
+      "phone": "電話",
+      "email": "電子郵件",
+      "location": "位置",
+      "sms": "簡訊",
+      "vcard": "聯絡人",
+      "other": "其他"
+    }
+  },
+  "common": {
+    "ok": "確定",
+    "cancel": "取消",
+    "yes": "是",
+    "no": "否",
+    "success": "成功",
+    "error": "錯誤",
+    "warning": "警告",
+    "info": "資訊",
+    "processing": "處理中..."
+  }
+}

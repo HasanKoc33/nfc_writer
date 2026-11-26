@@ -1,0 +1,11 @@
+Novità della versione 1.2.0:
+• Design moderno completamente nuovo con tema chiaro e scuro
+• Copia dei tag: scansiona un tag e scrivi gli stessi dati su uno nuovo
+• Link dinamici (Pro): cambia in qualsiasi momento la destinazione di un tag e vedi clic, dispositivi e browser
+• I contatti scritti su un tag ora si aprono correttamente su qualsiasi telefono
+• La cronologia ora viene salvata e puoi riutilizzare ogni elemento con un tocco
+• Incollando un link completo https:// non viene più aggiunto due volte
+• Pulsante «Ripristina acquisto» e correzioni agli acquisti
+• Miglioramenti della stabilità
+
+Domande? info@firesoftyazilim.com

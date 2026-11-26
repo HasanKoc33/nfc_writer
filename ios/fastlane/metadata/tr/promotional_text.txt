@@ -1,0 +1,1 @@
+Yeni tasarım! NFC etiketini tek dokunuşla kopyala, Dinamik Link ile etiketin nereye gideceğini istediğin zaman değiştir ve kimlerin okuttuğunu gör.

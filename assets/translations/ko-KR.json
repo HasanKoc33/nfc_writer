@@ -1,0 +1,158 @@
+{
+  "app": {
+    "title": "NFC Writer"
+  },
+  "home": {
+    "title": "NFC Writer",
+    "content": "홈 페이지 내용",
+    "tabs": {
+      "scan": "스캔",
+      "write": "쓰기"
+    }
+  },
+  "drawer": {
+    "home": "홈",
+    "history": "기록",
+    "remove_ads": "광고 제거",
+    "rate_app": "앱 평가하기",
+    "support": "지원",
+    "language": {
+      "title": "언어",
+      "english": "영어",
+      "turkish": "터키어",
+      "russian": "러시아어",
+      "korean": "한국어",
+      "arabic": "아랍어",
+      "chinese": "중국어",
+      "french": "프랑스어",
+      "german": "독일어",
+      "greek": "그리스어",
+      "italian": "이탈리아어",
+      "japanese": "일본어",
+      "spanish": "스페인어"
+    },
+    "theme": {
+      "title": "테마",
+      "light": "라이트",
+      "dark": "다크",
+      "system": "시스템"
+    }
+  },
+  "nfc": {
+    "not_available": "NFC를 사용할 수 없습니다",
+    "scan": {
+      "start": "스캔 시작",
+      "serial_number": "시리얼 번호",
+      "memory_status": "메모리 상태",
+      "empty_space": "남은 공간",
+      "used_space": "사용된 공간",
+      "total_size": "전체 크기",
+      "byte": "바이트",
+      "repeat": "다시 스캔",
+      "rescan": "Tekrar Tarama"
+    },
+    "write": {
+      "add_data": "NFC 태그에 쓸 데이터 추가",
+      "add_data_description": "NFC 태그에 쓸 데이터를 추가하세요",
+      "data_size": "쓸 데이터 크기",
+      "start_writing": "쓰기 시작",
+      "add_record": "데이터 추가",
+      "records_list": "저장된 데이터",
+      "records_count": "{count}개",
+      "writing_in_progress": "쓰는 중...",
+      "url": "URL",
+      "text": "텍스트",
+      "contact": "연락처",
+      "contact_name": "이름",
+      "contact_phone": "전화",
+      "contact_email": "이메일",
+      "contact_address": "주소",
+      "contact_company": "회사",
+      "contact_website": "웹사이트",
+      "add_contact": "연락처 추가",
+      "wifi": "Wi-Fi",
+      "mime": "MIME",
+      "custom_data": "사용자 정의 데이터",
+      "add_url": "URL 추가",
+      "url_prefix": "URL 접두사",
+      "no_password": "비밀번호 없음",
+      "hidden_ssid": "숨겨진 SSID",
+      "ios_alert_write": "태그를 가까이 대세요. 최대 2초 걸릴 수 있습니다.",
+      "write_success": "쓰기 성공",
+      "write_error": "쓰기 오류",
+      "tag_not_writable": "이 태그는 쓸 수 없습니다",
+      "enter_text_hint": "텍스트 입력",
+      "enter_hex_hint": "16진수 데이터 입력 (01AB23...)",
+      "hex_warning": "공백 없이 유효한 16진수 값을 사용하세요 (0-9, A-F).",
+      "invalid_hex": "잘못된 16진수 형식!",
+      "data_format": "데이터 형식",
+      "cancel": "취소"
+    }
+  },
+  "pro_version": {
+    "title": "프리미엄으로 업그레이드",
+    "upgrade_button": "프리미엄으로 업그레이드",
+    "feature": {
+      "remove_ads": {
+        "title": "광고 제거",
+        "description": "광고 없는 쾌적한 경험을 즐기세요"
+      }
+    }
+  },
+  "email": {
+    "subject": "NFC Writer 지원"
+  },
+  "history": {
+    "title": "기록",
+    "read_tab": "읽기 기록",
+    "write_tab": "쓰기 기록",
+    "empty": "아직 기록이 없습니다",
+    "use": "사용",
+    "delete": "삭제",
+    "share": "공유",
+    "copy": "복사",
+    "clear_all": "모두 지우기",
+    "clear_read": "읽기 기록 지우기",
+    "clear_write": "쓰기 기록 지우기",
+    "confirm_clear": "기록 지우기",
+    "confirm_clear_message": "모든 기록을 삭제하시겠습니까?",
+    "confirm_delete": "삭제 확인",
+    "confirm_delete_message": "이 항목을 삭제하시겠습니까?",
+    "cancel": "취소",
+    "close": "닫기",
+    "item_deleted": "항목이 삭제되었습니다",
+    "cleared": "기록이 지워졌습니다",
+    "copied": "복사되었습니다",
+    "search": "검색...",
+    "type": "유형",
+    "content": "내용",
+    "date": "날짜",
+    "just_now": "방금 전",
+    "minutes_ago": "{0}분 전",
+    "hours_ago": "{0}시간 전",
+    "days_ago": "{0}일 전",
+    "filter": {
+      "all": "전체",
+      "url": "URL",
+      "text": "텍스트",
+      "wifi": "Wi-Fi",
+      "phone": "전화",
+      "email": "이메일",
+      "location": "위치",
+      "sms": "SMS",
+      "vcard": "연락처",
+      "other": "기타"
+    }
+  },
+  "common": {
+    "ok": "확인",
+    "cancel": "취소",
+    "yes": "예",
+    "no": "아니요",
+    "success": "성공",
+    "error": "오류",
+    "warning": "경고",
+    "info": "정보",
+    "processing": "처리 중..."
+  }
+}

@@ -1,0 +1,1 @@
+etikett,kopieren,klonen,visitenkarte,vcard,wlan,scanner,ndef,ntag,rfid,kontaktlos,link,aufkleber

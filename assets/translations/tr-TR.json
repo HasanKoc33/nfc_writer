@@ -1,0 +1,342 @@
+{
+  "app": {
+    "title": "NFC Writer"
+  },
+  "home": {
+    "title": "NFC Writer",
+    "content": "Ana Sayfa İçeriği",
+    "tabs": {
+      "scan": "Tarama",
+      "write": "Yazma"
+    }
+  },
+  "drawer": {
+    "home": "Ana Sayfa",
+    "history": "Geçmiş",
+    "remove_ads": "Reklamları Kaldır",
+    "rate_app": "Uygulamayı Değerlendir",
+    "support": "Destek",
+    "language": {
+      "title": "Dil Seçimi",
+      "english": "İngilizce",
+      "turkish": "Türkçe",
+      "russian": "Rusça",
+      "korean": "Korece",
+      "arabic": "Arapça",
+      "chinese": "Çince",
+      "french": "Fransızca",
+      "german": "Almanca",
+      "greek": "Yunanca",
+      "italian": "İtalyanca",
+      "japanese": "Japonca",
+      "spanish": "İspanyolca"
+    },
+    "theme": {
+      "title": "Tema",
+      "light": "Aydınlık",
+      "dark": "Karanlık",
+      "system": "Sistem"
+    }
+  },
+  "nfc": {
+    "not_available": "NFC kullanılabilir değil",
+    "scan": {
+      "start": "Taramayı Başlat",
+      "serial_number": "Seri Numarası",
+      "memory_status": "Hafıza Durumu",
+      "empty_space": "Boş Alan",
+      "used_space": "Kullanılan Alan",
+      "total_size": "Toplam Boyut",
+      "byte": "bayt",
+      "repeat": "Tekrar Tara",
+      "data": "Veri",
+      "url": "URL",
+      "open": "Aç",
+      "copy": "Kopyala",
+      "wifi": "Wi-Fi",
+      "wifi_name": "Ağ Adı",
+      "wifi_security": "Güvenlik",
+      "wifi_password": "Parola",
+      "connect_wifi": "Bağlan",
+      "share_wifi": "Paylaş",
+      "wifi_copied": "WiFi bilgileri kopyalandı",
+      "connect_to_wifi": "WiFi'ye Bağlan",
+      "wifi_info": "WiFi Bilgileri",
+      "android_wifi_note": "Android'de doğrudan bağlantı için WiFi ayarlarını açmanız gerekiyor.",
+      "ios_wifi_note": "iOS'ta WiFi ağına manuel olarak bağlanmanız gerekiyor.",
+      "cancel": "İptal",
+      "close": "Kapat",
+      "open_settings": "Ayarları Aç",
+      "copy_password": "Parolayı Kopyala",
+      "password_copied": "Parola kopyalandı",
+      "text": "Metin",
+      "contact": "Kişi",
+      "contact_name": "Ad",
+      "contact_phone": "Telefon",
+      "contact_email": "E-posta",
+      "contact_address": "Adres",
+      "contact_company": "Şirket",
+      "contact_website": "Web Sitesi",
+      "add_contact": "Kişi Ekle",
+      "writable": "Yazılabilir",
+      "not_writable": "Yazılamaz",
+      "phone": "Telefon",
+      "call": "Ara",
+      "message": "Mesaj",
+      "email": "E-posta",
+      "send_email": "E-posta Gönder",
+      "location": "Konum",
+      "open_map": "Haritada Aç",
+      "sms": "SMS",
+      "message_content": "Mesaj İçeriği",
+      "send_sms": "SMS Gönder",
+      "ios_alert": "Kartı yaklaştırın.",
+      "ios_read_success": "Kart başarıyla okundu.",
+      "ios_read_error": "Kart okunamadı."
+    },
+    "write": {
+      "add_data": "NFC Etiketinize Yazmak İçin Veri Ekleyin",
+      "add_data_description": "NFC etiketinize yazmak için veri ekleyin",
+      "data_size": "Yazılacak Veri Boyutu",
+      "data_size_bytes": "Veri Boyutu: {size} bayt",
+      "start_writing": "Yazma İşlemini Başlat",
+      "add_record": "Veri Ekle",
+      "records_list": "Kayıtlı Veriler",
+      "records_count": "{count} kayıt",
+      "writing_in_progress": "Yazılıyor...",
+      "url": "URL",
+      "text": "Metin",
+      "contact": "Kişi",
+      "wifi": "Wi-Fi",
+      "mime": "MIME",
+      "custom_data": "Özel Veri",
+      "add_url": "URL Ekle",
+      "url_prefix": "URL Öneki",
+      "no_password": "Şifresiz",
+      "hidden_ssid": "Gizli SSID",
+      "ios_alert_write": "Kartı yaklaştırın ve bekleyin. Bu işlem 2 sn kadar sürebilir.",
+      "write_success": "Yazma işlemi başarılı",
+      "write_error": "Yazma hatası",
+      "tag_not_writable": "Bu etiket yazılabilir değil",
+      "enter_text_hint": "Metin girin",
+      "enter_hex_hint": "Hex verisi girin (01AB23...)",
+      "hex_warning": "Boşluk bırakmayın. Geçerli hex değeri kullanın (0-9, A-F).",
+      "invalid_hex": "Geçersiz hex formatı!",
+      "data_format": "Veri Formatı",
+      "cancel": "İptal"
+    }
+  },
+  "pro_version": {
+    "title": "Premium'a Yükselt",
+    "upgrade_button": "Premium'a Yükselt",
+    "feature": {
+      "remove_ads": {
+        "title": "Reklamları Kaldır",
+        "description": "Kesintisiz ve reklamsız bir deneyim yaşayın"
+      }
+    }
+  },
+  "email": {
+    "subject": "NFC Writer Destek"
+  },
+  "history": {
+    "title": "Geçmiş",
+    "read_tab": "Okuma Geçmişi",
+    "write_tab": "Yazma Geçmişi",
+    "empty": "Henüz geçmiş yok",
+    "use": "Kullan",
+    "delete": "Sil",
+    "share": "Paylaş",
+    "copy": "Kopyala",
+    "clear_all": "Tümünü Temizle",
+    "clear_read": "Okuma Geçmişini Temizle",
+    "clear_write": "Yazma Geçmişini Temizle",
+    "confirm_clear": "Geçmişi Temizle",
+    "confirm_clear_message": "Tüm geçmişi silmek istediğinizden emin misiniz?",
+    "confirm_delete": "Silme Onayı",
+    "confirm_delete_message": "Bu öğeyi silmek istediğinizden emin misiniz?",
+    "cancel": "İptal",
+    "close": "Kapat",
+    "item_deleted": "Öğe silindi",
+    "cleared": "Geçmiş temizlendi",
+    "copied": "Kopyalandı",
+    "search": "Ara...",
+    "type": "Tip",
+    "content": "İçerik",
+    "date": "Tarih",
+    "just_now": "Az önce",
+    "minutes_ago": "{0} dakika önce",
+    "hours_ago": "{0} saat önce",
+    "days_ago": "{0} gün önce",
+    "filter": {
+      "all": "Tümü",
+      "url": "URL",
+      "text": "Metin",
+      "wifi": "WiFi",
+      "phone": "Telefon",
+      "email": "E-posta",
+      "location": "Konum",
+      "sms": "SMS",
+      "vcard": "Kişi",
+      "other": "Diğer"
+    }
+  },
+  "premium": {
+    "title": "Premium'a Yükselt",
+    "subtitle": "Tüm özelliklerin kilidini aç ve sınırlamaları kaldır",
+    "one_time_payment": "Tek seferlik ödeme",
+    "unlock_now": "Premium'u Aç",
+    "restore_purchase": "Satın Alımı Geri Yükle",
+    "processing": "İşleniyor...",
+    "pro_version": "Pro Sürüm",
+    "ad_free_version": "Reklamsız Sürüm",
+    "ok": "Tamam",
+    "purchase_success": {
+      "title": "Başarılı!",
+      "message": "Premium özellikler başarıyla açıldı!"
+    },
+    "purchase_error": {
+      "title": "Satın Alma Başarısız"
+    },
+    "features": {
+      "all_nfc_types": {
+        "title": "Tüm NFC Tipleri",
+        "description": "Her türlü NFC verisini yazabilirsiniz (Metin, WiFi, Telefon, E-posta, Konum, SMS, vCard)"
+      },
+      "unlimited_history": {
+        "title": "Sınırsız Geçmiş",
+        "description": "Sınırsız okuma ve yazma geçmişine erişin"
+      },
+      "no_ads": {
+        "title": "Reklamsız",
+        "description": "Reklamsız deneyimin keyfini çıkarın"
+      },
+      "priority_support": {
+        "title": "Öncelikli Destek",
+        "description": "Daha hızlı destek yanıtları alın"
+      },
+      "lifetime_updates": {
+        "title": "Ömür Boyu Güncellemeler",
+        "description": "Sonsuza kadar ücretsiz güncellemeler"
+      }
+    },
+    "free_limitation": {
+      "title": "Premium Özellik",
+      "message": "Bu özellik sadece Premium kullanıcılar için kullanılabilir. Ücretsiz kullanıcılar sadece URL verisi yazabilir.",
+      "upgrade": "Premium'a Yükselt"
+    }
+  },
+  "common": {
+    "ok": "Tamam",
+    "cancel": "İptal",
+    "yes": "Evet",
+    "no": "Hayır",
+    "success": "Başarılı",
+    "error": "Hata",
+    "warning": "Uyarı",
+    "info": "Bilgi",
+    "processing": "İşleniyor..."
+  },
+  "ui": {
+    "tabs": {
+      "history": "Geçmiş"
+    },
+    "settings": {
+      "title": "Ayarlar",
+      "appearance": "Görünüm",
+      "language": "Dil",
+      "support": "Yardım ve geri bildirim",
+      "premium_title": "Pro'ya Geç",
+      "premium_subtitle": "Tüm veri tipleri, reklamsız",
+      "version": "Sürüm"
+    },
+    "scan": {
+      "title": "Taramaya hazır",
+      "subtitle_ios": "Butona dokunun, ardından iPhone'unuzun üst kısmını NFC etiketine yaklaştırın.",
+      "subtitle_android": "Telefonunuzun arkasını NFC etiketine yaklaştırın. Tarama otomatik başlar.",
+      "button": "Etiketi Tara",
+      "unavailable_title": "NFC kullanılamıyor",
+      "unavailable_body": "Bu cihaz NFC desteklemiyor ya da NFC kapalı. Ayarlarınızı kontrol edip tekrar deneyin.",
+      "result_title": "Etiket bilgileri",
+      "records": "Kayıtlar",
+      "memory_used": "{total} bayttan {used} bayt kullanılıyor",
+      "empty_tag": "Bu etiket boş.",
+      "copy_to_write": "Yazmaya kopyala",
+      "copied_to_write": "{count} kayıt Yazma'ya kopyalandı",
+      "undo": "Geri al"
+    },
+    "write": {
+      "empty_title": "Henüz yazılacak veri yok",
+      "empty_body": "Bağlantı, kişi, Wi‑Fi ağı veya metin ekleyin, sonra etikete yazın.",
+      "write_button": "Etikete Yaz",
+      "add_button": "Ekle",
+      "payload": "{size} bayt · {count} kayıt",
+      "capacity_hint": "Yaygın NTAG213 etiketleri yaklaşık 140 bayt alır.",
+      "choose_type": "Ne yazmak istiyorsunuz?",
+      "choose_type_body": "Bir veri tipi seçin. Birden fazla ekleyebilirsiniz.",
+      "clear": "Tümünü temizle"
+    },
+    "history": {
+      "added_to_write": "Yazma listenize eklendi"
+    },
+    "dynamic": {
+      "tab": "Linkler",
+      "type_label": "Dinamik Link",
+      "create_title": "Dinamik link oluştur",
+      "create_body": "Etikete kısa bir link yazılır. Etiketi yeniden yazmadan, linkin nereye gideceğini istediğin zaman değiştirebilirsin.",
+      "name": "Ad (isteğe bağlı)",
+      "name_hint": "örn. Vitrin etiketi",
+      "target": "Hedef URL",
+      "advanced": "iOS / Android için ayrı hedef",
+      "target_ios": "iOS hedefi (isteğe bağlı)",
+      "target_android": "Android hedefi (isteğe bağlı)",
+      "create": "Oluştur ve ekle",
+      "created": "Dinamik link eklendi. Linkler sekmesinden takip edebilirsin.",
+      "invalid_url": "Geçerli bir http(s) adresi girin.",
+      "not_configured": "Bu sürümde dinamik link ayarlanmamış.",
+      "error_network": "Sunucuya ulaşılamadı. Bağlantını kontrol edip tekrar dene.",
+      "error_generic": "Bir sorun oluştu: {message}",
+      "empty_title": "Henüz dinamik link yok",
+      "empty_body": "Yaz → Ekle → Dinamik Link ile oluştur. Sonra hedefini istediğin zaman değiştir ve kimlerin okuttuğunu gör.",
+      "pro_title": "Linklerini düzenle ve takip et",
+      "pro_body": "Dinamik linkler bir Pro özelliğidir: etiketi yazdıktan sonra hedefini değiştir; tıklama, cihaz ve tarayıcı verilerini gör.",
+      "go_pro": "Pro'ya Geç",
+      "clicks": "{count} tıklama",
+      "inactive": "Duraklatıldı",
+      "total_clicks": "Toplam tıklama",
+      "unique": "Tekil ziyaretçi",
+      "today": "Bugün",
+      "week": "Son 7 gün",
+      "daily": "Son 30 gün",
+      "devices": "Cihazlar",
+      "os": "İşletim sistemleri",
+      "browsers": "Tarayıcılar",
+      "referers": "Kaynaklar",
+      "no_data": "Henüz tıklama yok",
+      "short_url": "Kısa link",
+      "target_section": "Hedef",
+      "edit_target": "Hedefi değiştir",
+      "save": "Kaydet",
+      "saved": "Hedef güncellendi. Etiketin artık yeni adresi açıyor.",
+      "active": "Link aktif",
+      "active_hint": "Kapalıyken etiket bir bekleme sayfası açar.",
+      "delete": "Linki sil",
+      "delete_confirm_title": "Bu link silinsin mi?",
+      "delete_confirm_body": "Bu linki kullanan etiketler ve QR kodlar çalışmayı bırakır. Geçici durdurmak için linki kapatabilirsin.",
+      "copied": "Link kopyalandı",
+      "cancel": "İptal",
+      "other_devices": "Diğer cihazlar",
+      "add_to_write": "Yazma listesine ekle",
+      "label_mobile": "Mobil",
+      "label_desktop": "Masaüstü",
+      "label_tablet": "Tablet",
+      "label_other": "Diğer"
+    },
+    "contact": {
+      "size_title": "Küçük etikete sığmayabilir",
+      "size_body": "Kişi kartı ve iPhone linki birlikte {size} bayt tutuyor. Yaygın NTAG213 etiketleri yaklaşık {capacity} bayt alır; bunun için NTAG215 veya NTAG216 etiket gerekir. Sadece link de hem Android'de hem iPhone'da çalışır.",
+      "both": "Kart + link",
+      "link_only": "Sadece link ({size} bayt)"
+    }
+  }
+}

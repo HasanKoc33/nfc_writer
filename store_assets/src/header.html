@@ -1,0 +1,57 @@
+<!doctype html>
+<html><head><meta charset="utf-8">
+<style>
+  html,body{margin:0;padding:0}
+  body{width:3840px;height:1646px;overflow:hidden;position:relative;
+    background:radial-gradient(1400px 900px at 2550px 950px,#2A3F9E 0%,rgba(42,63,158,0) 70%),
+               radial-gradient(1200px 800px at 700px 200px,#13307A 0%,rgba(19,48,122,0) 70%),
+               linear-gradient(135deg,#0A1033 0%,#070B22 100%);
+    font-family:-apple-system,"SF Pro Display","Helvetica Neue",sans-serif;color:#fff}
+  .copy{position:absolute;left:560px;top:470px}
+  h1{margin:0;font-size:176px;font-weight:800;letter-spacing:-4px;line-height:1}
+  h1 .accent{background:linear-gradient(90deg,#00E5FF,#8E5CFF);-webkit-background-clip:text;color:transparent}
+  p{margin:44px 0 0;font-size:62px;font-weight:500;color:#AFC0F5;letter-spacing:-0.5px}
+  svg{position:absolute;left:0;top:0}
+</style>
+</head><body>
+<svg width="3840" height="1646" viewBox="0 0 3840 1646" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tag" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#7C4DFF"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16245F"/><stop offset="1" stop-color="#0A1238"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="90"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="-20" dy="50" stdDeviation="50" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+
+  <circle cx="2500" cy="1000" r="330" fill="url(#tag)" opacity="0.5" filter="url(#blur)"/>
+  <g fill="none" stroke="url(#tag)" stroke-width="22">
+    <circle cx="2500" cy="1000" r="340" opacity="0.55"/>
+    <circle cx="2500" cy="1000" r="470" opacity="0.32"/>
+    <circle cx="2500" cy="1000" r="600" opacity="0.16"/>
+  </g>
+  <circle cx="2500" cy="1000" r="230" fill="url(#tag)"/>
+  <g fill="none" stroke="#fff" stroke-width="16" opacity="0.5">
+    <circle cx="2500" cy="1000" r="172"/><circle cx="2500" cy="1000" r="116"/>
+  </g>
+  <circle cx="2500" cy="1000" r="48" fill="#fff"/>
+
+  <g transform="translate(20 110) rotate(22 2980 560)" filter="url(#shadow)">
+    <rect x="2740" y="130" width="480" height="860" rx="96" fill="#F2F5FF"/>
+    <rect x="2770" y="160" width="420" height="800" rx="70" fill="url(#screen)"/>
+    <rect x="2920" y="190" width="120" height="32" rx="16" fill="#F2F5FF"/>
+    <circle cx="2980" cy="540" r="140" fill="url(#tag)"/>
+    <path d="M2914 544 L2962 592 L3052 496" fill="none" stroke="#fff" stroke-width="38" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="2850" y="740" width="260" height="30" rx="15" fill="#fff" opacity="0.85"/>
+    <rect x="2890" y="800" width="180" height="22" rx="11" fill="#fff" opacity="0.35"/>
+  </g>
+</svg>
+<div class="copy">
+  <h1>Tap. <span class="accent">Write.</span> Done.</h1>
+  <p>Read, write and copy NFC tags in seconds.</p>
+</div>
+</body></html>

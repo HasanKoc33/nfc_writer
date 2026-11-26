@@ -1,0 +1,1 @@
+etiket,okuyucu,kartvizit,vcard,wifi,temassız,dinamik link,klonla,ndef,ntag,rfid,akıllı,sticker,qr

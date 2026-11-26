@@ -1,0 +1,1 @@
+標籤,複製,名片,vcard,wifi,掃描器,ndef,ntag,rfid,感應,動態連結,讀取,寫入,貼紙

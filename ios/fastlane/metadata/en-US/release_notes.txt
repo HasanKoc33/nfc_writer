@@ -1,0 +1,11 @@
+What's new in 1.2.0:
+• All-new modern design with light and dark themes
+• Copy tags: scan a tag and write the same data to a new one
+• Dynamic Links (Pro): change where a tag points anytime and see clicks, devices and browsers
+• Contact cards written to tags now open correctly on every phone
+• History is now saved, and you can reuse any item with one tap
+• Pasting a full link no longer adds https:// twice
+• Restore Purchase button and purchase fixes
+• Stability improvements
+
+Questions? info@firesoftyazilim.com

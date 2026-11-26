@@ -1,0 +1,342 @@
+{
+  "app": {
+    "title": "NFC Writer"
+  },
+  "home": {
+    "title": "NFC Writer",
+    "content": "Home Page Content",
+    "tabs": {
+      "scan": "Scan",
+      "write": "Write"
+    }
+  },
+  "drawer": {
+    "home": "Home",
+    "history": "History",
+    "remove_ads": "Remove Ads",
+    "rate_app": "Rate App",
+    "support": "Support",
+    "language": {
+      "title": "Language",
+      "english": "English",
+      "turkish": "Turkish",
+      "russian": "Russian",
+      "korean": "Korean",
+      "arabic": "Arabic",
+      "chinese": "Chinese",
+      "french": "French",
+      "german": "German",
+      "greek": "Greek",
+      "italian": "Italian",
+      "japanese": "Japanese",
+      "spanish": "Spanish"
+    },
+    "theme": {
+      "title": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    }
+  },
+  "nfc": {
+    "not_available": "NFC is not available",
+    "scan": {
+      "start": "Start Scan",
+      "serial_number": "Serial Number",
+      "memory_status": "Memory Status",
+      "empty_space": "Empty Space",
+      "used_space": "Used Space",
+      "total_size": "Total Size",
+      "byte": "byte",
+      "repeat": "Scan Again",
+      "data": "Data",
+      "url": "URL",
+      "open": "Open",
+      "copy": "Copy",
+      "wifi": "Wi-Fi",
+      "wifi_name": "Network Name",
+      "wifi_security": "Security",
+      "wifi_password": "Password",
+      "connect_wifi": "Connect",
+      "share_wifi": "Share",
+      "wifi_copied": "WiFi details copied",
+      "connect_to_wifi": "Connect to WiFi",
+      "wifi_info": "WiFi Information",
+      "android_wifi_note": "On Android, you need to open WiFi settings for direct connection.",
+      "ios_wifi_note": "On iOS, you need to manually connect to the WiFi network.",
+      "cancel": "Cancel",
+      "close": "Close",
+      "open_settings": "Open Settings",
+      "copy_password": "Copy Password",
+      "password_copied": "Password copied",
+      "text": "Text",
+      "contact": "Contact",
+      "contact_name": "Name",
+      "contact_phone": "Phone",
+      "contact_email": "Email",
+      "contact_address": "Address",
+      "contact_company": "Company",
+      "contact_website": "Website",
+      "add_contact": "Add Contact",
+      "writable": "Writable",
+      "not_writable": "Not Writable",
+      "phone": "Phone",
+      "call": "Call",
+      "message": "Message",
+      "email": "Email",
+      "send_email": "Send Email",
+      "location": "Location",
+      "open_map": "Open Map",
+      "sms": "SMS",
+      "message_content": "Message Content",
+      "send_sms": "Send SMS",
+      "ios_alert": "Hold tag near device.",
+      "ios_read_success": "Tag read successfully.",
+      "ios_read_error": "Could not read tag."
+    },
+    "write": {
+      "add_data": "Add Data to Write to Your NFC Tag",
+      "add_data_description": "Add data to write to your NFC tag",
+      "data_size": "Data Size to Write",
+      "data_size_bytes": "Data Size: {size} bytes",
+      "start_writing": "Start Writing",
+      "add_record": "Add Data",
+      "records_list": "Saved Records",
+      "records_count": "{count} records",
+      "writing_in_progress": "Writing...",
+      "url": "URL",
+      "text": "Text",
+      "contact": "Contact",
+      "wifi": "Wi-Fi",
+      "mime": "MIME",
+      "custom_data": "Custom Data",
+      "add_url": "Add URL",
+      "url_prefix": "URL Prefix",
+      "no_password": "No Password",
+      "hidden_ssid": "Hidden SSID",
+      "ios_alert_write": "Hold tag near device. This may take up to 2 seconds.",
+      "write_success": "Write successful",
+      "write_error": "Write error",
+      "tag_not_writable": "This tag is not writable",
+      "enter_text_hint": "Enter text",
+      "enter_hex_hint": "Enter hex data (01AB23...)",
+      "hex_warning": "No spaces allowed. Use valid hex values (0-9, A-F) only.",
+      "invalid_hex": "Invalid hex format!",
+      "data_format": "Data Format",
+      "cancel": "Cancel"
+    }
+  },
+  "pro_version": {
+    "title": "Upgrade to Premium",
+    "upgrade_button": "Upgrade to Premium",
+    "feature": {
+      "remove_ads": {
+        "title": "Remove Ads",
+        "description": "Enjoy an uninterrupted, ad-free experience"
+      }
+    }
+  },
+  "email": {
+    "subject": "NFC Writer Support"
+  },
+  "history": {
+    "title": "History",
+    "read_tab": "Read History",
+    "write_tab": "Write History",
+    "empty": "No history yet",
+    "use": "Use",
+    "delete": "Delete",
+    "share": "Share",
+    "copy": "Copy",
+    "clear_all": "Clear All",
+    "clear_read": "Clear Read History",
+    "clear_write": "Clear Write History",
+    "confirm_clear": "Clear History",
+    "confirm_clear_message": "Are you sure you want to delete all history?",
+    "confirm_delete": "Confirm Delete",
+    "confirm_delete_message": "Are you sure you want to delete this item?",
+    "cancel": "Cancel",
+    "close": "Close",
+    "item_deleted": "Item deleted",
+    "cleared": "History cleared",
+    "copied": "Copied",
+    "search": "Search...",
+    "type": "Type",
+    "content": "Content",
+    "date": "Date",
+    "just_now": "Just now",
+    "minutes_ago": "{0} minutes ago",
+    "hours_ago": "{0} hours ago",
+    "days_ago": "{0} days ago",
+    "filter": {
+      "all": "All",
+      "url": "URL",
+      "text": "Text",
+      "wifi": "WiFi",
+      "phone": "Phone",
+      "email": "Email",
+      "location": "Location",
+      "sms": "SMS",
+      "vcard": "Contact",
+      "other": "Other"
+    }
+  },
+  "premium": {
+    "title": "Upgrade to Premium",
+    "subtitle": "Unlock all features and remove limitations",
+    "one_time_payment": "One-time payment",
+    "unlock_now": "Unlock Premium",
+    "restore_purchase": "Restore Purchase",
+    "processing": "Processing...",
+    "pro_version": "Pro Version",
+    "ad_free_version": "Ad-Free Version",
+    "ok": "OK",
+    "purchase_success": {
+      "title": "Success!",
+      "message": "Premium features unlocked successfully!"
+    },
+    "purchase_error": {
+      "title": "Purchase Failed"
+    },
+    "features": {
+      "all_nfc_types": {
+        "title": "All NFC Types",
+        "description": "Write any type of NFC data (Text, WiFi, Phone, Email, Location, SMS, vCard)"
+      },
+      "unlimited_history": {
+        "title": "Unlimited History",
+        "description": "Access unlimited read and write history"
+      },
+      "no_ads": {
+        "title": "No Ads",
+        "description": "Enjoy ad-free experience"
+      },
+      "priority_support": {
+        "title": "Priority Support",
+        "description": "Get faster support responses"
+      },
+      "lifetime_updates": {
+        "title": "Lifetime Updates",
+        "description": "Free updates forever"
+      }
+    },
+    "free_limitation": {
+      "title": "Premium Feature",
+      "message": "This feature is only available for Premium users. Free users can only write URL data.",
+      "upgrade": "Upgrade to Premium"
+    }
+  },
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "yes": "Yes",
+    "no": "No",
+    "success": "Success",
+    "error": "Error",
+    "warning": "Warning",
+    "info": "Info",
+    "processing": "Processing..."
+  },
+  "ui": {
+    "tabs": {
+      "history": "History"
+    },
+    "settings": {
+      "title": "Settings",
+      "appearance": "Appearance",
+      "language": "Language",
+      "support": "Help & feedback",
+      "premium_title": "Go Pro",
+      "premium_subtitle": "Every data type, no ads",
+      "version": "Version"
+    },
+    "scan": {
+      "title": "Ready to scan",
+      "subtitle_ios": "Tap the button, then hold the top of your iPhone near an NFC tag.",
+      "subtitle_android": "Hold the back of your phone near an NFC tag. Scanning starts automatically.",
+      "button": "Scan Tag",
+      "unavailable_title": "NFC isn't available",
+      "unavailable_body": "This device doesn't support NFC, or NFC is turned off. Check your settings and try again.",
+      "result_title": "Tag details",
+      "records": "Records",
+      "memory_used": "{used} of {total} bytes used",
+      "empty_tag": "This tag is empty.",
+      "copy_to_write": "Copy to Write",
+      "copied_to_write": "{count} records copied to Write",
+      "undo": "Undo"
+    },
+    "write": {
+      "empty_title": "Nothing to write yet",
+      "empty_body": "Add a link, contact, Wi‑Fi network or text, then write it to a tag.",
+      "write_button": "Write to Tag",
+      "add_button": "Add",
+      "payload": "{size} bytes · {count} records",
+      "capacity_hint": "Common NTAG213 tags hold about 140 bytes.",
+      "choose_type": "What do you want to write?",
+      "choose_type_body": "Pick a data type. You can add more than one.",
+      "clear": "Clear all"
+    },
+    "history": {
+      "added_to_write": "Added to your write list"
+    },
+    "dynamic": {
+      "tab": "Links",
+      "type_label": "Dynamic Link",
+      "create_title": "Create a dynamic link",
+      "create_body": "The tag stores a short link. You can change where it goes anytime without rewriting the tag.",
+      "name": "Name (optional)",
+      "name_hint": "e.g. Store window tag",
+      "target": "Destination URL",
+      "advanced": "Separate destinations for iOS / Android",
+      "target_ios": "iOS destination (optional)",
+      "target_android": "Android destination (optional)",
+      "create": "Create & add",
+      "created": "Dynamic link added. Track it in the Links tab.",
+      "invalid_url": "Enter a valid http(s) address.",
+      "not_configured": "Dynamic links aren't set up in this build.",
+      "error_network": "Couldn't reach the server. Check your connection and try again.",
+      "error_generic": "Something went wrong: {message}",
+      "empty_title": "No dynamic links yet",
+      "empty_body": "Create one from Write → Add → Dynamic Link. Then change its destination anytime and see who scanned it.",
+      "pro_title": "Edit and track your links",
+      "pro_body": "Dynamic links are a Pro feature: change a tag's destination after writing it, and see clicks, devices and browsers.",
+      "go_pro": "Go Pro",
+      "clicks": "{count} clicks",
+      "inactive": "Paused",
+      "total_clicks": "Total clicks",
+      "unique": "Unique visitors",
+      "today": "Today",
+      "week": "Last 7 days",
+      "daily": "Last 30 days",
+      "devices": "Devices",
+      "os": "Operating systems",
+      "browsers": "Browsers",
+      "referers": "Sources",
+      "no_data": "No clicks yet",
+      "short_url": "Short link",
+      "target_section": "Destination",
+      "edit_target": "Change destination",
+      "save": "Save",
+      "saved": "Destination updated. Your tag now opens the new address.",
+      "active": "Link active",
+      "active_hint": "When off, the tag opens a placeholder page.",
+      "delete": "Delete link",
+      "delete_confirm_title": "Delete this link?",
+      "delete_confirm_body": "Tags and QR codes using this link will stop working. To pause it instead, turn it off.",
+      "copied": "Link copied",
+      "cancel": "Cancel",
+      "other_devices": "Other devices",
+      "add_to_write": "Add to write list",
+      "label_mobile": "Phone",
+      "label_desktop": "Desktop",
+      "label_tablet": "Tablet",
+      "label_other": "Other"
+    },
+    "contact": {
+      "size_title": "This may not fit on a small tag",
+      "size_body": "The contact card plus the iPhone link takes {size} bytes. Common NTAG213 tags hold about {capacity} bytes, so you'll need an NTAG215 or NTAG216 tag. The link alone works on both Android and iPhone.",
+      "both": "Card + link",
+      "link_only": "Link only ({size} bytes)"
+    }
+  }
+}
