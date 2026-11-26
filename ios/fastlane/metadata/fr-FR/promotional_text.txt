@@ -1,0 +1,1 @@
+Nouveau design ! Copiez n'importe quel tag NFC en un geste, changez à tout moment la destination de vos tags avec les liens dynamiques et voyez qui les a scannés.

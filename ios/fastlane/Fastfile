@@ -1,0 +1,57 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+default_platform(:ios)
+
+# Sürüm ve build numarası pubspec.yaml'daki "version: x.y.z+n" satırından gelir.
+PROJECT_ROOT = File.expand_path("../..", __dir__)
+IPA_DIR = File.join(PROJECT_ROOT, "build/ios/ipa")
+PUBSPEC_VERSION = File.read(File.join(PROJECT_ROOT, "pubspec.yaml"))[/^version:\s*(\S+)/, 1]
+APP_VERSION, BUILD_NUMBER = PUBSPEC_VERSION.split("+")
+
+platform :ios do
+  desc "Flutter ile IPA üretir, build'i ve metadata'yı App Store Connect'e yükler (incelemeye göndermez)"
+  lane :release do
+    sh("cd #{PROJECT_ROOT} && flutter build ipa --release")
+    ipa = Dir[File.join(IPA_DIR, "*.ipa")].max_by { |f| File.mtime(f) }
+    UI.user_error!("IPA bulunamadı: #{IPA_DIR}") unless ipa
+
+    upload_to_app_store(
+      ipa: ipa,
+      # Sürüm notları ve diğer metinler metadata/<dil>/*.txt dosyalarından okunur.
+      skip_screenshots: true,
+      submit_for_review: false,
+      automatic_release: false,
+      force: true,
+      precheck_include_in_app_purchases: false
+    )
+  end
+
+  desc "Yüklenmiş build'i incelemeye gönderir; onaydan sonra yayına elle alınır"
+  lane :submit_review do
+    upload_to_app_store(
+      app_version: APP_VERSION,
+      build_number: BUILD_NUMBER,
+      skip_binary_upload: true,
+      skip_screenshots: true,
+      submit_for_review: true,
+      automatic_release: false,
+      force: true,
+      precheck_include_in_app_purchases: false,
+      submission_information: {
+        export_compliance_uses_encryption: false
+      }
+    )
+  end
+end

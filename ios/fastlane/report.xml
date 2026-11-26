@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="0: default_platform" time="0.000651">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="1: cd /Users/hasankoc/Desktop/Proje/FIRESOFT/nfc_writer &amp;&amp; flutter build ipa --release" time="316.296501">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="2: upload_to_app_store" time="168.078678">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

@@ -1,7 +1,7 @@
 plugins {
     id "com.android.application"
+    id 'com.google.gms.google-services'
     id "kotlin-android"
-    // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id "dev.flutter.flutter-gradle-plugin"
 }
 
@@ -13,14 +13,11 @@ if (localPropertiesFile.exists()) {
     }
 }
 
-
 def keystoreProperties = new Properties()
 def keystorePropertiesFile = rootProject.file('key.properties')
 if (keystorePropertiesFile.exists()) {
     keystoreProperties.load(new FileInputStream(keystorePropertiesFile))
 }
-
-
 
 def flutterVersionCode = localProperties.getProperty("flutter.versionCode")
 if (flutterVersionCode == null) {
@@ -33,23 +30,27 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace = "com.firesoft.nfc_writer"
-    compileSdk = flutter.compileSdkVersion
+    namespace = "com.iynst.nfc"
+    compileSdk = 36
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
+        coreLibraryDesugaringEnabled true
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
     }
 
     defaultConfig {
-        applicationId = "com.firesoft.nfc_writer"
-        minSdk = 21
-        targetSdk = flutter.targetSdkVersion
+        applicationId = "com.iynst.nfc"
+        minSdkVersion = flutter.minSdkVersion
+        targetSdk = 35
         versionCode = flutterVersionCode.toInteger()
         versionName = flutterVersionName
     }
-
 
     signingConfigs {
         release {
@@ -60,7 +61,6 @@ android {
         }
     }
 
-
     buildTypes {
         release {
             signingConfig signingConfigs.release
@@ -70,4 +70,8 @@ android {
 
 flutter {
     source = "../.."
+}
+
+dependencies {
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.4'
 }

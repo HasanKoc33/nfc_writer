@@ -1,17 +1,24 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
-
-
+    <uses-permission android:name="android.permission.NFC" />
     <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.NFC"/>
-    <uses-permission android:name="android.permission.NFC_TRANSACTION_EVENT"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-
-
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+    
     <application
-        android:label="NFC Writer"
+        android:label="nfc_writer"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
+        
+        <!-- AdMob App ID -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9536972853663383~5641787959"/>
+        
         <activity
             android:name=".MainActivity"
             android:exported="true"

@@ -1,0 +1,1 @@
+Hello, please test the application on a device with NFC capability. Attached is my video explaining how to use the NFC feature. Have a great day at work!

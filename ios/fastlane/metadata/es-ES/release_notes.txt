@@ -1,0 +1,11 @@
+Novedades de la versión 1.2.0:
+• Diseño moderno completamente nuevo con temas claro y oscuro
+• Copiar etiquetas: escanea una etiqueta y escribe los mismos datos en otra
+• Enlaces dinámicos (Pro): cambia adónde apunta una etiqueta cuando quieras y consulta clics, dispositivos y navegadores
+• Los contactos escritos en una etiqueta ahora se abren correctamente en cualquier teléfono
+• El historial ahora se guarda y puedes reutilizar cualquier elemento con un toque
+• Al pegar un enlace completo ya no se añade https:// dos veces
+• Botón «Restaurar compra» y correcciones de compra
+• Mejoras de estabilidad
+
+¿Preguntas? info@firesoftyazilim.com

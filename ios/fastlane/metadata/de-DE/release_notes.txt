@@ -1,0 +1,11 @@
+Neu in Version 1.2.0:
+• Komplett neues, modernes Design mit hellem und dunklem Modus
+• Tags kopieren: Tag scannen und dieselben Daten auf einen neuen schreiben
+• Dynamische Links (Pro): Ziel eines Tags jederzeit ändern und Klicks, Geräte und Browser sehen
+• Auf Tags geschriebene Kontakte öffnen sich jetzt auf jedem Telefon korrekt
+• Der Verlauf wird jetzt gespeichert und lässt sich mit einem Tippen wiederverwenden
+• Beim Einfügen eines vollständigen Links wird https:// nicht mehr doppelt hinzugefügt
+• Schaltfläche „Kauf wiederherstellen“ und Kaufkorrekturen
+• Stabilitätsverbesserungen
+
+Fragen? info@firesoftyazilim.com
